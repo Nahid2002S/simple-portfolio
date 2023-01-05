@@ -101,3 +101,49 @@ nav .logo{
     right: 100px;
     height: 480px;
 }
+
+/* Main And Section */
+
+main {
+    max-width: 860px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 110px;
+}
+
+/* About Section Style */
+ .about{
+    background: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
+    padding: 120px 140px;
+ }
+
+ .about-title{
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+ }
+
+ .about-para{
+    font-size: 18px;
+    color: #757575;
+ }
+
+ .all-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+ }
+
+ .info-type{
+    color: #757575;
+ }
+
+ .info{
+    font-weight: 500;
+    color: #474747;
+ }
