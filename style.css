@@ -194,3 +194,58 @@ section{
  .skills .skill-para{
     color: #757575;
  }
+
+ /*Resume Style*/
+
+ .resume-title{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 30px;
+    color: #181818;
+ }
+
+.resume-container{
+    display: flex;
+    gap: 40px;
+}
+
+.resume-name{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 25px;
+}
+
+.resume-sub{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+
+.resume-uni{
+    font-weight: 600;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+.resume-para{
+    color: #757575;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.new-btn2{
+    height: 50px;
+    padding: 10px 30px;
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 400px;
+    margin-top: 40px;
+}
