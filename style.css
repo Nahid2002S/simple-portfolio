@@ -105,7 +105,7 @@ nav .logo{
 /* Main And Section */
 
 main {
-    max-width: 860px;
+    max-width: 950px;
     margin: 0 auto;
 }
 section{
@@ -146,4 +146,51 @@ section{
  .info{
     font-weight: 500;
     color: #474747;
+ }
+
+ /* Skills Style */
+
+ .skills{
+    text-align: center;
+ }
+
+ .skills-title{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #181818;
+ }
+
+ .skills-para{
+    color: #757575;
+    margin-bottom: 40px;
+ }
+
+ .skill-box{
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    background-color: #ffffff
+ }
+
+ .skill{
+    margin-left: 25px;
+    background: #ffffff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+ }
+
+ .skills img{
+    margin-bottom: 25px;
+ }
+
+ .skills .skill-name{
+    font-size: 18px;
+    color: #181818;
+    margin-bottom: 20px;
+ }
+
+ .skills .skill-para{
+    color: #757575;
  }
