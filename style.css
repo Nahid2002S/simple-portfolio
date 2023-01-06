@@ -29,6 +29,7 @@ nav ul{
 nav ul li{
     margin-left: 50px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 nav .logo{
@@ -49,6 +50,7 @@ nav .logo{
     font-weight: 700;
     font-size: 20px;
     color: #fff;
+    cursor: pointer;
 }
 
 /*Banner Style*/
@@ -93,6 +95,7 @@ nav .logo{
     font-size: 20px;
     color: #FD6E0A;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .banner img{
@@ -248,4 +251,53 @@ section{
     color: #fff;
     margin-left: 400px;
     margin-top: 40px;
+    cursor: pointer;
+}
+
+/* footer Section */
+
+footer{
+    margin-top: 60px;
+    background: #FFF8F3;
+}
+
+.footer-all{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content{
+    margin: 100px 200px;
+}
+
+.footer-title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #181818;
+    margin-bottom: 15px;
+}
+
+.footer-para{
+    color: #474747;
+    margin-bottom: 25px;
+    width: 400px;
+}
+
+a{
+    margin-right: 10px;
+}
+
+footer input[type="text"], input[type="email"]{
+    width: 300px;
+    padding: 12px 10px;
+    margin-bottom: 20px;
+    border: 0;
+    outline: 0;
+}
+
+textarea{
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    margin-bottom: 15px;
 }
